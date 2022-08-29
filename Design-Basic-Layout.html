@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Layout</title>
+        <style>
+            body{
+                font-family: arial, helvetica;
+                background-color: slategray;
+                margin: 0;
+                padding: 0;
+            }
+#wrapper{
+    border: 0px solid black;
+    width: 1000px;
+    background: white;
+    margin: 0 auto;
+}
+#header{
+    background: crimson;
+    color: white;
+    height: 100px;
+}
+#header h1{
+    padding: 30px 0 0 20px;
+}
+#menu{
+    background: lightsalmon;
+}
+#menu li a:hover{
+    background: crimson;
+    color: white;
+}
+#content{
+    width: 800px;
+    height: 500px;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#menu li{
+    display: inline-block;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu li a{
+    display: block;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: black;
+}
+#sidebar a{
+    text-decoration: none;
+    color: black;
+}
+#sidebar{
+    background: lightblue;
+    width: 200px;
+    height: 500px;
+    float: right;
+    
+}
+#footer{
+    background: lightsalmon;
+    padding: 5px 10px;
+    text-align: right;
+    clear: both;
+}
+</style>
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="header">
+            <h1>Aziz Khan Offical</h1>
+        </div>
+            <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+            <div id="content">
+                <h2>Design Basic Layout</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat nunc non magna laoreet, et congue augue cursus. Aenean dignissim rhoncus convallis. Aenean sed lorem interdum orci dapibus dictum. Maecenas velit sapien, aliquet ut turpis id, fringilla dapibus libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam sodales felis sit amet mi ornare rhoncus. Ut id placerat arcu, non mollis arcu. Sed ultrices tellus sed neque tincidunt sollicitudin. Pellentesque cursus tortor ipsum, sed fringilla enim rhoncus sed. Suspendisse interdum ipsum eu eros posuere feugiat.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat nunc non magna laoreet, et congue augue cursus. Aenean dignissim rhoncus convallis. Aenean sed lorem interdum orci dapibus dictum. Maecenas velit sapien, aliquet ut turpis id, fringilla dapibus libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam sodales felis sit amet mi ornare rhoncus. Ut id placerat arcu, non mollis arcu. Sed ultrices tellus sed neque tincidunt sollicitudin. Pellentesque cursus tortor ipsum, sed fringilla enim rhoncus sed. Suspendisse interdum ipsum eu eros posuere feugiat.</p>
+            </div>
+            
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div id="footer">
+                AzizKhanOffical@copyright 2022
+            </div>
+    </body>
+</html>
